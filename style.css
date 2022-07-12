@@ -1,0 +1,155 @@
+body{
+    margin:0px;
+    /* background-color: green; */
+    /* height:100vh; */
+}
+*{
+    box-sizing:border-box;
+}
+.header{
+    height:5rem;
+    background-color: black;
+    display:flex;
+    align-items: center;
+    
+}
+.color_pallet{
+    height:60%;
+    width:20rem;
+    background-color: #454b4f;
+    margin-right: 5rem;
+    margin-left:2rem;
+    display:flex;
+    border-radius: 7px;
+}
+.color_boxes{
+    width:25%;
+    height:100%;
+    /* border:1px solid red; */
+    display:flex;
+    justify-content:center;
+    align-items: center;
+}
+.color{
+    height:50%;
+    width:50%;
+    border-radius: 4px;
+}
+.pink{
+    background-color: lightpink;
+}
+.blue{
+    background-color: lightblue;
+}
+.green{
+    background-color: lightgreen;
+}
+.black{
+    background-color: black;
+}
+.option{
+    height:65%;
+    width:7rem;
+    background-color: #454b4f;
+    display:flex;
+    border-radius: 5px;
+    margin-right: 3rem;
+    /* justify-content: center;
+    align-items: center; */
+}
+.box{
+    width:50%;
+    height:100%;
+    /* border:1px solid red; */
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.icon{
+    color:white;
+    font-size: 2rem;
+    
+}
+.main{
+    min-height:90vh;
+    background-color:rgb(230, 221, 221);
+    padding:2rem;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: space-evenly;
+}
+.ticket{
+    height:10rem;
+    width:16rem;
+    margin-top: 3rem;
+    margin-left:2rem;
+}
+.ticket_header{
+    height:6%;
+    background-color: black;
+}
+.ticket_content{
+    height:94%;
+    /* background-color: lightgrey; */
+}
+.ticket_id{
+    height: 20%;
+    font-weight: bolder;
+    background-color: rgb(255, 255, 255);
+    font-family: sans-serif;
+    color:#989393;
+    padding-top: 0.4rem;
+    padding-left: 1rem;
+}
+textarea{
+    height:80%;
+    width:100%;
+    border:none;
+    outline:none;
+    /* background-color: rgb(241,234,234); */
+    padding:1rem;
+    font-size:1.2rem;
+    font-family:'Roboto',sans-serif;
+    line-height:145%;
+    /* letter-spacing: 1.3px; */
+    text-align: center;
+    
+}
+.modal {
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    height: 18rem;
+    width: 35rem;
+    background: white;
+    position: fixed;
+    top: 10rem;
+    /* to place an element in horizontal center using position  */
+    left: calc((100vw - 35rem) / 2);
+    display: flex;
+}
+
+.contentarea {
+    width: 70%;
+    height: 100%;
+    font-size: 1.5rem;
+    padding: 2rem;
+}
+
+.pallet_container {
+    height: 100%;
+    width: 30%;
+    background-color: rgb(56, 54, 54);
+    display: flex;
+    /* column wise  */
+    flex-direction: column;
+    /* verically*/
+    justify-content: space-evenly;
+    /* horizontal center  */
+    align-items: center;
+}
+
+.pallet_color {
+    height: 15%;
+    width: 60%;
+    border-radius: 2px;
+
+}
